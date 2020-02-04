@@ -1,0 +1,78 @@
+<html>
+   <head>
+      <title>INSCRIS TOI</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="inscription.css">
+   </head>
+   <body>
+        <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+
+       <header> <div class="head"> BLOGGY</div></header>
+      <div class="base">
+       <div class="titre">  <h2>INSCRIPTION</h2></div>
+         
+         <form method="POST" action="inscription.php">
+            <table>
+               <tr>
+                  <td>
+                     <label for="pseudo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAACagAAAmoBSAN88gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAE+SURBVEiJ7daxSsNQGMXx8wkFdRFFwUVwqM4OTrpbnET0LUTooKtv4OAT+AAWnKU+geDiJgUHcXGog6IRh/5dUmhDmnzX3oBDz5ov55fc3IRIk/zHAKvABfAEvAEvwDWwXiW6DyTk5xVoAsux0TXgcwQ6mGcvPuW0jyXNOuZWJB05O8sDPDrutp8HT6c54UTStPM6381srmzIu9Qfzjl3vPB9QOddTPgnAP6OCW8GwBsx4VYAfBUwWx6g7XiVbqKiKbzrgHeiwyl+XoCehXS5PiAZnNwis6Au7+aKniAYOCw4djD+5QwX1oAG0AJ6Bc+4l840gNo44DZwCXQduzmbbnruVgi4BNz+ARuVNrBYhi4AnYhoPx1gftDKbq5TSXX38vhTl3RSBO9VgOZ2D730wJekmYrgxMw8/22TxM0vvuRSbKYqefoAAAAASUVORK5CYII="></label>
+                  </td>
+                  <td>
+                     <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="" />
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="mail"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAACAwAAAgMB08fyjgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADqSURBVEiJ7dUxTgJBGMXxGaEiRHsKrkGjHoCLUJpogaUlrRewsNODUEjvDUwwhILe5GczktGsZMc4VPuaSb557/13MplsCJ0KFLE4BkQI4bYiYxESpJrgpCbgS3sIXnD+H6W4wCofSOsNtnjA6I/lo5Tf4nrfn98JhrjDDvc4bVl+lvy7lB9+O0TTxWOMR2xwhd4v5b20v0n+cYOnGZIZJljiFdMfe9M0X2JyoOMwJPvaGd7xhEs8Y53mjacsgmTmAeZ4S+ugZa49JAv1C/3ljzHG+FGaOe6L7yBt1A8hhNo/roh5TUCnYn0CPBINxPyfozkAAAAASUVORK5CYII="></label>
+                  </td>
+                  <td>
+                     <input type="email" placeholder="Votre mail" id="mail" name="email" value="" />
+                  </td>
+               </tr>
+            
+               <tr>
+                  <td>
+                     <label for="mdp"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjYiIGhlaWdodD0iMjYiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iI2ZmZmZmZiI+PGcgaWQ9InN1cmZhY2UxIj48cGF0aCBkPSJNMTA1Ljg0NjE1LDBjLTE0LjYyNjIsMCAtMjcuMjYyNjIsNi4wNzI3MiAtMzUuMTQ0MjMsMTUuOTE4MjdjLTcuODgxNjEsOS44NDU1NSAtMTEuMTYzNDYsMjIuNjExMTggLTExLjE2MzQ2LDM2LjM4NDYydjcuMjM1NThoMTkuODQ2MTV2LTcuMjM1NThjMCwtMTAuNDM5OSAyLjU4NDEzLC0xOC42NTc0NSA2LjgyMjEyLC0yMy45ODA3N2M0LjIzNzk4LC01LjMyMzMxIDEwLjAwMDYsLTguNDc1OTYgMTkuNjM5NDIsLTguNDc1OTZjOS42NjQ2NywwIDE1LjQwMTQ0LDIuOTcxNzYgMTkuNjM5NDIsOC4yNjkyM2M0LjIzNzk4LDUuMjk3NDcgNi44MjIxMiwxMy42MTgzOSA2LjgyMjEyLDI0LjE4NzV2Ny4yMzU1OGgxOS44NDYxNXYtNy4yMzU1OGMwLC0xMy44NTA5NiAtMy40ODg1OCwtMjYuNzQ1NzkgLTExLjM3MDE5LC0zNi41OTEzNWMtNy44ODE2MSwtOS44NDU1NSAtMjAuMzM3MTQsLTE1LjcxMTU0IC0zNC45Mzc1LC0xNS43MTE1NHpNNTkuNTM4NDYsNjYuMTUzODVjLTEwLjk1NjczLDAgLTE5Ljg0NjE1LDguODg5NDIgLTE5Ljg0NjE1LDE5Ljg0NjE1djY2LjE1Mzg1YzAsMTAuOTU2NzMgOC44ODk0MiwxOS44NDYxNSAxOS44NDYxNSwxOS44NDYxNWg5Mi42MTUzOGMxMC45NTY3MywwIDE5Ljg0NjE1LC04Ljg4OTQyIDE5Ljg0NjE1LC0xOS44NDYxNXYtNjYuMTUzODVjMCwtMTAuOTU2NzMgLTguODg5NDIsLTE5Ljg0NjE1IC0xOS44NDYxNSwtMTkuODQ2MTV6TTEwNS44NDYxNSw5OS4yMzA3N2M3LjMxMzEsMCAxMy4yMzA3Nyw1LjkxNzY3IDEzLjIzMDc3LDEzLjIzMDc3YzAsNC44ODQwMSAtMi42NjE2Niw5LjA3MDMxIC02LjYxNTM4LDExLjM3MDE5djE1LjA5MTM1YzAsMy42NDM2MyAtMi45NzE3Niw2LjYxNTM4IC02LjYxNTM4LDYuNjE1MzhjLTMuNjQzNjMsMCAtNi42MTUzOCwtMi45NzE3NiAtNi42MTUzOCwtNi42MTUzOHYtMTUuMDkxMzVjLTMuOTUzNzIsLTIuMjk5ODggLTYuNjE1MzgsLTYuNDg2MTggLTYuNjE1MzgsLTExLjM3MDE5YzAsLTcuMzEzMSA1LjkxNzY3LC0xMy4yMzA3NyAxMy4yMzA3NywtMTMuMjMwNzd6Ij48L3BhdGg+PC9nPjwvZz48L2c+PC9zdmc+"></label>
+                  </td>
+                  <td>
+                     <input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
+                  </td>
+               </tr>
+               <tr>
+                  <td >
+                     <label for="mdp2"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="30" height="30"
+                        viewBox="0 0 172 172"
+                        style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M106.06667,17.2c-26.91227,0 -48.73333,21.82107 -48.73333,48.73333c0,5.97582 1.13319,11.67424 3.10183,16.96484l-43.23516,43.23516v28.66667h28.66667v-17.2h17.2v-17.2h17.2l8.83516,-8.83516c5.29061,1.96863 10.98902,3.10183 16.96484,3.10183c26.91227,0 48.73333,-21.82107 48.73333,-48.73333c0,-26.91227 -21.82107,-48.73333 -48.73333,-48.73333zM117.53333,40.13333c7.91773,0 14.33333,6.4156 14.33333,14.33333c0,7.91773 -6.4156,14.33333 -14.33333,14.33333c-7.91773,0 -14.33333,-6.4156 -14.33333,-14.33333c0,-7.91773 6.4156,-14.33333 14.33333,-14.33333z"></path></g></g></svg></label>
+                  </td>
+                  <td>
+                     <input type="password" placeholder="Confirmez votre mdp" id="mdp2" name="mdp2" />
+                  </td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td >
+                     <br />
+                     <input class="bouton" type="submit" name="forminscription" value="VALIDER" />
+                  </td>
+               </tr>
+            </table>
+         </form>
+         
+      </div>
+      </div>
+   </body>
+</html>
